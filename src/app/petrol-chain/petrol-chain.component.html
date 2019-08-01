@@ -1,0 +1,16 @@
+<header>
+  <h1>Отклонение от диспетчерского задания</h1>
+</header>
+
+<section>
+  <div class="menu">
+    todo: menu
+  </div>
+
+  <div class="chart">
+    <ng-container *ngIf="indicatorsList$ | async as indicatorsList">
+      <pl-chart [indicatorsList]="indicatorsList"></pl-chart>
+    </ng-container>
+  </div>
+
+</section>

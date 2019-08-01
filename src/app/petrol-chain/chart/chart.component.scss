@@ -1,0 +1,42 @@
+$focus-color: #fff;
+$secondary-color: #474c64;
+
+.c3-axis-y {
+  fill: $focus-color;
+  font-size: 9px;
+
+  .c3-axis-y-label {
+    fill: $secondary-color;
+    font-size: 8px;
+  }
+}
+
+.c3-axis-x {
+  fill: $secondary-color;
+  font-size: 9px;
+
+  .c3-axis-y-label {
+    fill: $secondary-color;
+    font-size: 8px;
+  }
+}
+
+.c3-xgrids,
+.c3-ygrids {
+  line {
+    stroke: $secondary-color;
+    stroke-dasharray: none;
+  }
+}
+
+.c3-axis-y,
+.c3-axis-x {
+  path,
+  line {
+    stroke: $secondary-color;
+  }
+}
+
+.c3-legend-item text {
+  fill: $secondary-color;
+}
